@@ -3,7 +3,7 @@ body {
   font-family: 'Georgia', serif;
   color: #fff;
   margin: 0;
-  background: linear-gradient(0deg, #080808, #1f1e28);
+  background: linear-gradient(0deg, #b18b22, #1f1e28);
   min-height: 100vh;
 }
 
@@ -13,12 +13,13 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #222;
+  background-color: #b18b22, #1f1e28;
+
 }
 
 header .logo img {
-  height: 50px;
-  width: 100px;
+  height: 220px;
+  width: 220px;
 }
 
 nav ul {
@@ -34,7 +35,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #919090;
+  color: #f3efef;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 100;
@@ -58,7 +59,8 @@ p {
   margin-top: 30px;
   font-size: 3em;
   font-weight: 100;
-  color: rgb(225, 18, 18);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(0, 0, 0);
 }
 
 .content {
@@ -75,7 +77,7 @@ p {
 }
 
 .gradient-text {
-  background-image: linear-gradient(-45deg, rgb(177, 8, 189), rgb(88, 186, 255));
+  background-image: linear-gradient(-45deg, rgb(13, 4, 14), rgb(136, 82, 10));
   background-clip: text;
   color: transparent;
 }

@@ -1,0 +1,82 @@
+/* General Styles */
+
+.body  {
+    font-family: 'Arial', sans-serif; /*A widely used and highly readable sans-serif font, good for both body text and headings.*/
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f5f5f5; /* Light brown background */
+  }
+  
+  /* Container for CV - Responsive Layout */
+  
+  .container1 {
+    width: 80%;
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle drop shadow */
+    border-radius: 8px;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    text-align: center;
+    background-color: #e0e0e0; /* Lightest brown for header */
+    padding: 20px;
+    border-bottom: 1px solid #d3d3d3; /* Light border below header */
+  }
+  
+  header h1 {
+    font-size: 2.2rem; /* Slightly larger heading */
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  header p {
+    color: #666;
+    font-weight: 500;
+  }
+  
+  /* Section Styles */
+  
+  section {
+    margin-bottom: 40px;
+    padding: 20px;
+  }
+  
+  section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d98b3f; /* Warm brown border for sections */
+    padding-bottom: 5px;
+  }
+  
+  /* Contact Section Styles */
+  
+  .contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center; /* Aligns icons and text vertically */
+  }
+  
+  .contact ul li:before {
+    content: '';
+    margin-right: 10px;
+    font-size: 1.2em;
+    color: #d98b3f; /* Warm brown for icons */
+  }
+  
+  .contact ul li:nth-child(1):before {
+    content: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M.052 16L8 9.998 15.948 16v-6L8 2.998 0.052 16z' fill='%23d98b3f' stroke='none'%3E%3C/path%3E%3C/svg%3E"); /* Email icon */
+  }
+  
